@@ -122,6 +122,7 @@ strong {
   font-family: monospace;
 } 
 
+/* Media quaries */
 @media screen and (min-width: 1200px) {
   .container {
     margin-bottom: 100px;
