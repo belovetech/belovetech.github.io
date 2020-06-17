@@ -3,12 +3,6 @@ body {
   color: #999;
   padding-top: 50px;
 }
-.jumbotron {
-  background: #ffcf00;
-  color: black;
-  box-shadow: 0px 1px 15px 5px rgba(6, 89, 167, 0.58);
-  /* border-bottom: 10px solid #00559d; */
-}
 .navbar-style {
   background-color: #00559d;
 }
@@ -74,8 +68,29 @@ footer > a > img {
 .list-unstyled > li > a {
   color: #00559d;
 }
+.jumbotron {
+  background: #fff url(../img/136.jpg) no-repeat center;
+  background-size: cover;
+ }
+.jumbotron p {
+  color: black;
+}
 
+/* .jumbotron h1::after {
+  content: url(../img/logo.png) no-repeat 50px;
+  background-size: 60px 60px ;
+  position: relative;
+  left: 50%;
 
+} */
+/* GALLERY PAGES */
+.well h1,
+.jumbotron h1{
+  color: #00559d;
+}
+.well p {
+  color: black;
+}
 /* CONTACT PAGES */
 .contact-info a {
 	display: block;
