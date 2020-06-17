@@ -1,6 +1,7 @@
 /* GENERAL */
 body {
   color: #999;
+  padding-top: 100px;
 }
 .navbar-style {
   background-color: #00559d;
@@ -93,12 +94,6 @@ footer > a > img {
 }
 
 /* FORM PAGES */
-
-.form-group > input.form-bottom-border {
-  outline: none;
-  border: none;
-  border-bottom: 2px solid #999;
-}
 .sign,
 h5 {
   color: rgb(22, 22, 22);
