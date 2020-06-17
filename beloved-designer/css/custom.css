@@ -53,6 +53,7 @@ footer {
   text-align: center;
   padding: 15px;
   color: #fff;
+
 }
 footer > a > img {
   background: #ddd;
@@ -125,3 +126,9 @@ strong {
   color: rgb(248, 52, 52);
   font-family: monospace;
 } 
+
+@media screen and (min-width: 1200px) {
+  .container {
+    margin-bottom: 100px;
+  }
+}
